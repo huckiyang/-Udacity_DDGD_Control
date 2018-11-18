@@ -2,7 +2,7 @@
 Project 2 - Continuous Control  - Udacity Deep Reinforcement Learning Nanodegree
 
 ### Introduction of Environment 
-img[demo](https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif)
+![demo](https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif)
 
 Set-up: Double-jointed arm which can move to target locations.
 Goal: The agents must move it's hand to the goal location, and keep it there.
