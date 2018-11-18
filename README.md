@@ -1,2 +1,2 @@
-# -Udacity_DDGD_Control
+# Udacity_DDGD_Control
 Unity Reacher 
