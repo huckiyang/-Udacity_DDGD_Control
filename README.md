@@ -2,8 +2,7 @@
 Project 2 - Continuous Control  - Udacity Deep Reinforcement Learning Nanodegree
 
 ### Introduction of Environment 
-![demo](https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif)
-
+<img src="https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif" width="500" height="300">
 Set-up: Double-jointed arm which can move to target locations.
 Goal: The agents must move it's hand to the goal location, and keep it there.
 Agents: The environment contains 10 agent linked to a single Brain.
