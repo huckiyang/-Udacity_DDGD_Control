@@ -3,16 +3,26 @@ Project 2 - Continuous Control  - Udacity Deep Reinforcement Learning Nanodegree
 
 ### Introduction of Environment 
 <img src="https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif" width="500" height="300">
+
 Set-up: Double-jointed arm which can move to target locations.
+
 Goal: The agents must move it's hand to the goal location, and keep it there.
+
 Agents: The environment contains 10 agent linked to a single Brain.
+
 Agent Reward Function (independent):
 +0.1 Each step agent's hand is in goal location.
+
 Brains: One Brain with the following observation/action space.
+
 Vector Observation space: 26 variables corresponding to position, rotation, velocity, and angular velocities of the two arm Rigidbodies.
+
 Vector Action space: (Continuous) Size of 4, corresponding to torque applicable to two joints.
+
 Visual Observations: None.
+
 Reset Parameters: Two, corresponding to goal size, and goal movement speed.
+
 Benchmark Mean Reward: 30
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
