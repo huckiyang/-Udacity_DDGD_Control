@@ -44,7 +44,7 @@ Open a command prompt/terminal and type `jupyter notebook`.  If that doesn't wor
 
 Run `Continuous_Control.ipynb` for further details.
 
-'deep_detpg_agent.py' contains the agents and 'model.py' contains the neural net models we used.
+`deep_detpg_agent.py` contains the agents and `model.py` contains the neural net models we used.
 
 ## gym-env
 Set-up: Double-jointed arm which can move to target locations.
