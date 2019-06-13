@@ -7,7 +7,7 @@ import time
 import torch
 from unityagents import UnityEnvironment
 
-%matplotlib inline
+# %matplotlib inline
 
 
 ## when running locally
@@ -57,7 +57,7 @@ print('Total score (averaged over agents) this episode: {}'.format(np.mean(score
 
 # DDPG function
 
-def ddpg(n_episodes=500, max_t=1000, solved_score=30.0, consec_episodes=100, print_every=1, train_mode=True,
+def ddpg(n_episodes=500, max_t=1000, solved_score=15.0, consec_episodes=100, print_every=1, train_mode=True,
          actor_path='actor_ckpt.pth', critic_path='critic_ckpt.pth'):
     """Deep Deterministic Policy Gradient (DDPG)
     
@@ -141,5 +141,5 @@ plt.plot(np.arange(len(scores)), avgs, c='r', label='moving avg')
 plt.ylabel('Score')
 plt.xlabel('Episode #')
 plt.legend(loc='upper left');
-plt.savefig('Results/RobotArms'+"_Epis"+str(N_Epi)+"_"+time.strftime("%m%d-%H%M")+'.png', bbox_inches='tight')
+plt.savefig('Results/RobotArms'+"_Epis"+"_"+time.strftime("%m%d-%H%M")+'.png', bbox_inches='tight')
 
