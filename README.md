@@ -4,8 +4,11 @@
 [Setup the 'drlnd' environment](https://github.com/huckiyang/CoRL_Unity_DQN_Navigation), then
 
 ``$ source activate drlnd``
+
 ``$ wget https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip``
+
 ``$ unzip Reacher_Linux_NoVis.zip``
+
 ``$ python DDPG_Robot_arms.py``
 
 ### Introduction of Environment 
