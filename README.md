@@ -1,4 +1,4 @@
-# CoRL_Env2_DDGD_Control
+# CoRL_Env2_DDPG_RobotControl
 
 #### Following CoRL 1
 [Setup Env](https://github.com/huckiyang/CoRL_Unity_DQN_Navigation)
