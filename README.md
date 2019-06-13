@@ -1,9 +1,12 @@
 # CoRL_Env2_DDPG_RobotControl
 
 #### Following CoRL 1
-[Setup Env](https://github.com/huckiyang/CoRL_Unity_DQN_Navigation)
+[Setup the 'drlnd' environment](https://github.com/huckiyang/CoRL_Unity_DQN_Navigation), then
 
-``source activate drlnd``
+``$ source activate drlnd``
+``$ wget https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip``
+``$ unzip Reacher_Linux_NoVis.zip``
+``$ python DDPG_Robot_arms.py``
 
 ### Introduction of Environment 
 <img src="https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif" width="500" height="300">
