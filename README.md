@@ -1,6 +1,18 @@
-# Udacity_DDGD_Control
-Project 2 - Continuous Control  - Udacity Deep Reinforcement Learning Nanodegree
+# CoRL_Env2_DDGD_Control
 
+### Introduction of Environment 
+<img src="https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif" width="500" height="300">
+
+In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
+
+The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
+
+
+# Application:Train a Set of Robotic Arms
+
+<img src="assets/robot-pickers.gif" width="60%" align="top-left" alt="" title="Robot Arms" />
+
+*Photo credit: [Google AI Blog](https://ai.googleblog.com/2018/06/scalable-deep-reinforcement-learning.html)*
 
 ##### &nbsp;
 
@@ -277,29 +289,6 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file.
 
-### Instructions
-
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
-
-### (Optional) Challenge: Crawler Environment
-
-After you have successfully completed the project, you might like to solve the more difficult **Crawler** environment.
-
-![Crawler][image2]
-
-In this continuous control environment, the goal is to teach a creature with four legs to walk forward without falling.  
-
-You can read more about this environment in the ML-Agents GitHub [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#crawler).  To solve this harder task, you'll need to download a new Unity environment.  (**Note**: Udacity students should not submit a project with this new environment.)
-
-You need only select the environment that matches your operating system:
-- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Linux.zip)
-- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Windows_x86.zip)
-- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Windows_x86_64.zip)
-
-Then, place the file in the `p2_continuous-control/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Crawler.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
-
-(_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
 
 ## Background
@@ -310,19 +299,6 @@ Reinforcement Learning agents such as the one created in this project are used i
 - **Automatic Calibration**: DDPG networks are used to calibrate industrial equipment and optimize performance. They can also help detect anomalies and issue alerts to avoid disasters.
 - **HVAC Control Systems**: Heating and Ventilation systems are everywhere, and improvements in these systems can lead to great energy savings. In fact, Google turned over control of its data center cooling systems to an AI system, [reducing cooling costs by 40%](https://deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-40/). A [July 2018 paper by Li et al](https://arxiv.org/pdf/1709.05077.pdf) addresses a similar issue for the National Super Computing Center (NSCC). Their algorithm uses an actor-critic model that's similar to the one I used in this project, which reduced NSCC electricity costs by 15%. 
 
-### Introduction of Environment 
-<img src="https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif" width="500" height="300">
-
-In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
-
-The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
-
-
-# Application:Train a Set of Robotic Arms
-
-<img src="assets/robot-pickers.gif" width="60%" align="top-left" alt="" title="Robot Arms" />
-
-*Photo credit: [Google AI Blog](https://ai.googleblog.com/2018/06/scalable-deep-reinforcement-learning.html)*
 
 ##### &nbsp;
 
