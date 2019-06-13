@@ -8,14 +8,6 @@ In this environment, a double-jointed arm can move to target locations. A reward
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
 
-# Application:Train a Set of Robotic Arms
-
-<img src="assets/robot-pickers.gif" width="60%" align="top-left" alt="" title="Robot Arms" />
-
-*Photo credit: [Google AI Blog](https://ai.googleblog.com/2018/06/scalable-deep-reinforcement-learning.html)*
-
-##### &nbsp;
-
 ## Approach
 Here are the high-level steps taken in building an agent that solves this environment.
 
