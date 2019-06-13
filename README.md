@@ -1,5 +1,11 @@
 # CoRL_Env2_DDGD_Control
 
+#### Following CoRL 1
+[Setup Env](https://github.com/huckiyang/CoRL_Unity_DQN_Navigation)
+
+```source activate drlnd
+```
+
 ### Introduction of Environment 
 <img src="https://github.com/huckiyang/Udacity_DDGD_Control/blob/master/image/train_1.gif" width="500" height="300">
 
