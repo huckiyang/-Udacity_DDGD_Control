@@ -1,5 +1,7 @@
 # CoRL_Env2_DDPG_RobotControl
 
+huckiyang @ georgia tech
+
 #### Step 1 - Following CoRL 1
 [Setup the 'drlnd' environment](https://github.com/huckiyang/CoRL_Unity_DQN_Navigation), then
 
